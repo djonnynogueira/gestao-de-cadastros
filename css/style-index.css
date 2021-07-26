@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cabecalho-menu-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.cabecalho-menu-item:hover {
+    box-shadow: 3px 1px 17px 1px #ff000090;
+}
+
+.container-principal{
+    display: flex;
+    width: 600px;
+    height: 280px;
+    margin: auto;
+    background-color: #000;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+.rodape-lista-midias-sociais {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.rodape-item-midias-sociais {
+    width: 50px;
+    margin: 0 .25em;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: 10px 10px;
+
+
+}
+
+.patrocinadores-item {
+    width: 200px;
+}
+
+
+
+
+/* tela até 420 */
+@media (max-width: 420px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+
+        font-size: 15px;
+        font-weight: 800;
+        margin: 10px;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        justify-content: center;
+        padding: 1px;
+    }
+
+    .cabecalho-menu-item {
+        margin: 2px;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .banner-black-friday {
+        width: 300px;
+    }
+
+    .imagem {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 344px) {
+    .cabecalho-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1px;
+    }
+}
